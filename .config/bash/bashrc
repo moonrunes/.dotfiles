@@ -5,8 +5,8 @@ case $- in
 esac
 
 # Alias definitions.
-if [ -f $XDG_CONFIG_HOME/bash/.bash_aliases ]; then
-    . $XDG_CONFIG_HOME/bash/.bash_aliases
+if [ -f $XDG_CONFIG_HOME/bash/bash_aliases ]; then
+    . $XDG_CONFIG_HOME/bash/bash_aliases
 fi
 
 # Enable history expansion with space
